@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w",
-    "start": "index.html"
+    "start": "node server.js"
   },
   "author": "Jems",
   "license": "ISC",
