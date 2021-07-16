@@ -7,6 +7,9 @@
     "compile:sass": "node-sass sass/main.scss css/style.css -w",
     "start": "node server.js"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "author": "Jems",
   "license": "ISC",
   "devDependencies": {
