@@ -1,10 +1,11 @@
 {
-  "name": "natours",
+  "name": "esprit-vagabond",
   "version": "1.0.0",
-  "description": "Landing page for Natours",
-  "main": "index.js",
+  "description": "Landing page for Esprit Vagabond",
+  "main": "index.html",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "start": "index.html"
   },
   "author": "Jems",
   "license": "ISC",
